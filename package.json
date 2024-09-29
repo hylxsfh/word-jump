@@ -4,11 +4,19 @@
 	"description": "Jump between same words",
 	"version": "0.0.2",
 	"publisher": "hylxsfh",
-	"repository": "",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hylxsfh/word-jump.git"
+	},
+	"bugs": {
+		"url": "https://github.com/hylxsfh/word-jump/issues"
+	},
 	"engines": {
 		"vscode": "^1.74.0"
 	},
 	"categories": [
+		"Formatters",
+		"Programming Languages",
 		"Other"
 	],
 	"activationEvents": [],

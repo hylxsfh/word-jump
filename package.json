@@ -1,0 +1,42 @@
+{
+	"name": "word-jump",
+	"displayName": "Word Jump",
+	"description": "Jump between same words",
+	"version": "0.0.2",
+	"publisher": "hylxsfh",
+	"repository": "",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.openJump",
+				"title": "Open Jump"
+			},
+			{
+				"command": "extension.closeJump",
+				"title": "Close Jump"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"lint": "eslint \"src/**/*.ts\"",
+		"watch": "tsc -watch -p ./"
+	},
+	"devDependencies": {
+		"@types/node": "^16.18.34",
+		"@types/vscode": "^1.73.0",
+		"@typescript-eslint/eslint-plugin": "^6.7.0",
+		"@typescript-eslint/parser": "^6.7.0",
+		"eslint": "^8.26.0",
+		"typescript": "^5.4.2"
+	}
+}

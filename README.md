@@ -8,6 +8,4 @@ Jump between identical words.
 2. Enter 'Close Jump' to hide the "Up" and "Down" button on the left side of the status bar.
 
 ## example
-
-
-<img src="word-jump.gif" width="1200" height="600" alt="Alt text">
+![Image](word-jump.gif)

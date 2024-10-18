@@ -2,9 +2,16 @@
 	"name": "word-jump",
 	"displayName": "Word Jump",
 	"description": "Jump between same words",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"publisher": "hylxsfh",
 	"icon": "images/jump.png",
+	"keywords": [
+		"word",
+		"jump",
+		"variable",
+		"same",
+		"identical"
+	],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/hylxsfh/word-jump.git"

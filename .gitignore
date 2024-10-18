@@ -2,3 +2,4 @@ out
 node_modules
 .vscode-test/
 *.vsix
+/部署步骤.txt
